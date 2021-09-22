@@ -3,7 +3,12 @@
   <groupId>com.util.common-util</groupId>
   <artifactId>common-util</artifactId>
   <version>1.0.1-SNAPSHOT</version>
-  
+    <repositories>
+        <repository>
+            <id>com.e-iceblue</id>
+            <url>http://repo.e-iceblue.cn/repository/maven-public/</url>
+        </repository>
+    </repositories>
    <dependencies>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -36,11 +41,17 @@
 			<artifactId>commons-lang</artifactId>
 			<version>2.6</version>
 		</dependency>
+
         <dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
 			<version>2.5</version>
 		</dependency>
+    <!--   <dependency>
+           <groupId>e-iceblue</groupId>
+           <artifactId>spire.pdf.free</artifactId>
+           <version>3.9.0</version>
+       </dependency>-->
     </dependencies>
   
   <build>
